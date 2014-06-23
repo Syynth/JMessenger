@@ -2,6 +2,9 @@
  * Filename: JMessageHub.java
  * Created by syynth on 6/22/14.
  */
+
+package com.syynth.jmessage;
+
 public interface JMessageHub {
 
   public <TMessage extends JMessage> void publish(Class<TMessage> messageClass, TMessage message);

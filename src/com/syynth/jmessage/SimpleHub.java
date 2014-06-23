@@ -1,10 +1,13 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-
 /**
  * Filename: SimpleHub.java
  * Created by syynth on 6/23/14.
  */
+
+package com.syynth.jmessage;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class SimpleHub implements JMessageHub {
 
   private HashMap<Class<?>, ArrayList<JMessageReceiver>> mapHandlers;

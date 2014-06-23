@@ -2,6 +2,9 @@
  * Filename: JMessageToken.java
  * Created by syynth on 6/23/14.
  */
+
+package com.syynth.jmessage;
+
 public class JMessageToken<TMessage extends JMessage> {
 
   private JMessageReceiver handler;
